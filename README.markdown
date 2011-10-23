@@ -30,13 +30,18 @@ Now you're ready to use it using the `-t/--template` switch. Example:
 
 That's it. 
 
+## Samples
+
+See a sample in Markdown in the repo titled ['Getting Started with deck.js'](https://raw.github.com/geraldb/slideshow-deck.js/master/sample.markdown).
+
+
 ## Questions? Comments?
 
 Questions? Comments?
 Send them along to the [Free Web Slide Show Alternatives (S5, S6, S9, Slidy And Friends) Forum/Mailing List](http://groups.google.com/group/webslideshow).
 Thanks!
 
-## What's Slide Show (S9)? Slide Show Generator for `deck.js`
+## What's Slide Show (S9)?
 
 A Ruby gem that lets you create slide shows and author slides in plain text
 using a wiki-style markup language that's easy-to-write and easy-to-read.
