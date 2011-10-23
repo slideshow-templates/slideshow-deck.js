@@ -1,0 +1,62 @@
+#####################
+# Sample Slide Show (S9) template package manifest using deck.js
+# - deck.js by Caleb Troughton (aka imakewebthings); see https://github.com/imakewebthings/deck.js 
+#
+# Change as desired/needed
+#
+# Configured to use the following headers in slides.html.erb:
+#
+# author: Your Name Here
+# title: Your Slide Show Title Here
+#
+# Questions? Comments?
+# Send them along to the Free Web Slide Show Alternatives (S5, S6, S9 And Friends) Forum/Mailing List.
+# http://groups.google.com/group/webslideshow
+
+
+__file__.html slides.html.erb
+__file__.css style.css.erb
+
+
+# deck.js core machinery
+
+core/deck.core.js
+core/deck.core.css
+
+
+# deck.js extensions
+
+extensions/goto/deck.goto.js
+extensions/goto/deck.goto.css
+
+extensions/hash/deck.hash.js
+extensions/hash/deck.hash.css
+
+extensions/menu/deck.menu.js
+extensions/menu/deck.menu.css
+
+extensions/navigation/deck.navigation.js
+extensions/navigation/deck.navigation.css
+
+extensions/scale/deck.scale.js
+extensions/scale/deck.scale.css
+
+extensions/status/deck.status.js
+extensions/status/deck.status.css
+
+
+# deck.js themes
+
+themes/style/neon.css
+themes/style/swiss.css
+themes/style/web-2.0.css
+
+themes/transition/fade.css
+themes/transition/horizontal-slide.css
+themes/transition/vertical-slide.css
+
+
+# 3rd party libs
+
+lib/jquery-1.6.4.min.js
+lib/modernizr.custom.js
