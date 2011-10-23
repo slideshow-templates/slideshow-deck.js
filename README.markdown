@@ -1,5 +1,4 @@
-
-## Slide Show (S9) Template Pack - deck.js
+# Slide Show (S9) Template Pack - deck.js
 
 The [deck.js](https://github.com/imakewebthings/deck.js) package by Caleb Troughton (aka imakewebthings) bundled up into 
 a Slide Show (S9) template pack.
