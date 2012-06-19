@@ -12,7 +12,12 @@ Note, the package is configured to use the following headers in `slides.html.erb
 
 If you want to try it yourself, install (fetch) the new template pack. Issue the command:
 
-    $ slideshow -f https://github.com/geraldb/slideshow-deck.js/raw/master/deck.js.txt
+    $ slideshow -f deck.js
+
+Or as an alternative clone the template pack using `git`. Issue the commands:
+
+    $ cd ~/.slideshow/templates
+    $ git clone git://github.com/geraldb/slideshow-deck.js.git
 
 To check if the new template got installed, use the `-l/--list` switch/command:
 
