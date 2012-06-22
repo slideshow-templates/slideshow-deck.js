@@ -1,10 +1,11 @@
 title: Getting Started with deck.js
 author: Caleb Troughton
 
-%% todo: add support for breaking slides on h2 instead of h1 to s9 generator
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Note: Use the `--h2` option to break up slides on heading level 2   %%
+%% (the default is `--h1`, that is, heading level 1).                  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-!SLIDE
 
 ## How to Make a Deck
 
@@ -15,8 +16,6 @@ author: Caleb Troughton
 3. ### Include Extensions
    Add extra functionality to your deck, or leave it stripped down.
 
-
-!SLIDE
 
 ## The Markup
 
@@ -41,15 +40,15 @@ Slides are just HTML elements with a class of `slide`.
     </section>
 
 
-!SLIDE
+## Themes
 
-## Style Themes
+### Style Themes
 
 Customizes the colors, typography, and layout of slide content.
 
     <link rel='stylesheet' href='/path/to/css/style-theme.css'>
 
-## Transition Themes
+### Transition Themes
 
 Defines transitions between slides using CSS3 transitions.
 Less capable browsers fall back to cutaways. But __you__ aren't using _those_ browsers
@@ -57,8 +56,6 @@ to give your presentations, are you?
 
     <link rel='stylesheet' href='/path/to/css/transition-theme.css'>
 
-
-!SLIDE
 
 ## Extensions
 
@@ -74,14 +71,10 @@ but you may want more. Here are the ones included in this deck:
 Each extension folder in the download package contains the necessary JavaScript, CSS, and HTML files. For a complete list of extension modules included in deck.js, check out the  [documentation](http://imakewebthings.github.com/deck.js/docs).
 
 
-!SLIDE
-
 ## Continued...
 
 To be done
 
-
-!SLIDE
 
 ## Digging Deeper
 
