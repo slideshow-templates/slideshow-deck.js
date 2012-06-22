@@ -6,7 +6,7 @@ A Ruby gem that lets you create slide shows and author slides in plain text
 using a wiki-style markup language that's easy-to-write and easy-to-read.
 More [Slide Show (S9) Project Site &raquo;](http://slideshow.rubyforge.org)
 
-# Intro
+## Intro
 
 The [deck.js](https://github.com/imakewebthings/deck.js) package
 by Caleb Troughton (aka imakewebthings) bundled up into 
