@@ -4,7 +4,7 @@
 
 A Ruby gem that lets you create slide shows and author slides in plain text
 using a wiki-style markup language that's easy-to-write and easy-to-read.
-More [Slide Show (S9) Project Site &raquo;](http://slideshow.rubyforge.org)
+More [Slide Show (S9) Project Site »](http://slideshow-s9.github.io)
 
 ## Intro
 
@@ -25,16 +25,16 @@ the following headers in `slides.html.erb`:
 
 If you want to try it yourself, install (fetch) the new template pack. Issue the command:
 
-    $ slideshow -f deck.js
+    $ slideshow install deck.js
 
 Or as an alternative clone the template pack using `git`. Issue the commands:
 
     $ cd ~/.slideshow/templates
     $ git clone git://github.com/geraldb/slideshow-deck.js.git
 
-To check if the new template got installed, use the `-l/--list` switch/command:
+To check if the new template got installed, use the `list` command:
 
-    $ slideshow -l
+    $ slideshow list
 
 Listing something like:
 
@@ -43,10 +43,10 @@ Listing something like:
 
 Tip: To get started use the included quick starter sample. Issue the command:
 
-    $ slideshow -q deck.js
+    $ slideshow new -t deck.js
 
 Now you will have a copy of the deck.js Quick Starter sample
-(that is, [`deck.js.text`](https://raw.github.com/geraldb/slideshow-deck.js/master/sample.markdown))
+(that is, [`deck.js.text`](https://raw.github.com/slideshow-s9/slideshow-deck.js/master/sample.markdown))
 in Markdown in your working folder.
 
 ```
@@ -97,10 +97,10 @@ extending deck.js, and more, check out the
 [documentation](http://imakewebthings.github.com/deck.js/docs).
 ```
 
-Showtime! Let's use the `-t/--template` switch to generate the
+Showtime! Let's use the `-t/--template` switch to build the
 sample slide show. Example:
 
-    $ slideshow -t deck.js deck.js.text --h2
+    $ slideshow build -t deck.js.text deck.js --h2
 
 Note: Use the `--h2` option to break up slides on heading level 2
 (the default is `--h1`, that is, heading level 1).
