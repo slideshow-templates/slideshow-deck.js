@@ -100,7 +100,7 @@ extending deck.js, and more, check out the
 Showtime! Let's use the `-t/--template` switch to build the
 sample slide show. Example:
 
-    $ slideshow build -t deck.js.text deck.js --h2
+    $ slideshow build deck.js.text -t deck.js --h2
 
 Note: Use the `--h2` option to break up slides on heading level 2
 (the default is `--h1`, that is, heading level 1).
