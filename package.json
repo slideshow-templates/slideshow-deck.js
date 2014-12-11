@@ -1,0 +1,21 @@
+{
+  "name": "slideshow-deck.js",
+  "version": "0.1.0",
+  "description": "deck.js - Slide Show (S9) Template Pack",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/slideshow-templates/slideshow-deck.js.git"
+  },
+  "keywords": [
+    "slideshow",
+    "deck.js",
+    "s9",
+    "slideshow-templates"
+  ],
+  "author": "Gerald Bauer",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/slideshow-templates/slideshow-deck.js/issues"
+  },
+  "homepage": "https://github.com/slideshow-templates/slideshow-deck.js"
+}
