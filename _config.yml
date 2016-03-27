@@ -1,0 +1,22 @@
+#####
+#  GitHub Pages / Jekyll settings / config
+
+headers:
+  title:     Getting Started with deck.js
+  author:    Caleb Troughton
+  generator: GitHub Pages w/ Jekyll
+
+collections:
+  slides:
+    output: false
+
+
+exclude:
+- README.md
+- deck.js.GPL-license.txt
+- deck.js.MIT-license.txt
+- deck.js.txt
+- deck.js.txt.quick
+- package.json
+- sample.md
+

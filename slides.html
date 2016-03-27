@@ -1,3 +1,16 @@
+---
+---
+
+{% if jekyll.version %}
+  {% assign headers   = site.headers %}
+  {% assign slides    = site.slides %}
+  {% assign style_css = 'style.css' %}
+{% else %}
+  {% capture style_css %}{{ name }}.css{% endcapture %}
+  {% capture more_content_for_js %}{{ content_for :js }}{% endcapture %}
+{% endif %}
+
+
 <!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
@@ -7,11 +20,11 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
-	<title><%= @headers['title'] %></title>
+	<title>{{ headers['title'] }}</title>
 
-	<meta name="generator" content="Slide Show (S9)">
-	<meta name="author" content="<%= @headers['author']%>">
-	<meta name="viewport" content="width=1024, user-scalable=no">
+	<meta name="generator" content="{{ headers['generator'] }}">
+	<meta name="author"    content="{{ headers['author'] }}">
+	<meta name="viewport"  content="width=1024, user-scalable=no">
 
 	<!-- Core and extension CSS files -->
 	<link rel="stylesheet" href="core/deck.core.css">
@@ -27,7 +40,7 @@
 	
 	<!-- Custom CSS just for this page -->
 	<!-- GB: changed fixed name to variable -->
-	<link rel="stylesheet"  href="<%= "#{@name}.css" %>">
+	<link rel="stylesheet"  href="{{ style_css }}">
 	
 	<script src="lib/modernizr.custom.js"></script>
 </head>
@@ -55,15 +68,15 @@
 </div>
 
 <section class="slide" id="title-slide">
-	<h1><%= @headers['title'] %></h1>
+	<h1>{{ headers['title'] }}</h1>
 </section>
 
 <!-- note: assumes no header (breaking slides w/ SLIDE directive) -->
-<% @slides.each_with_index do |slide,i| %>
-  <section class="slide" id="<%= (i+2).to_s %>">
-    <%= slide.content %>
+{% for slide in slides %} 
+  <section class="slide" id="{{ forloop.index }}"> <!--fix: add with filter? +1 toindex -title slide is 1 already -->
+    {{ slide.content }}
   </section>
-<% end %>
+{% endfor %}
 
 
 <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
@@ -112,7 +125,7 @@ $(function() {
 	});
 });
 
-<%= content_for :js %>
+{{ more_content_for_js }}
 </script>
 
 </body>
