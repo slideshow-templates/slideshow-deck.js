@@ -21,6 +21,11 @@ the following headers in `slides.html.erb`:
     author: Your Name Here
     title: Your Slide Show Title Here
  
+## Live Preview
+
+See [`slides.html`](http://slideshow-templates.github.io/slideshow-deck.js/slides.html).
+
+
 ## Try It Yourself - How To Use the deck.js Template Pack
 
 If you want to try it yourself, install (fetch) the new template pack. Issue the command:
@@ -46,7 +51,7 @@ Tip: To get started use the included quick starter sample. Issue the command:
     $ slideshow new -t deck.js
 
 Now you will have a copy of the deck.js Quick Starter sample
-(that is, [`deck.js.text`](https://raw.github.com/slideshow-templates/slideshow-deck.js/master/sample.md))
+(that is, [`deck.js.text`](https://raw.github.com/slideshow-templates/slideshow-deck.js/gh-pages/sample.md))
 in Markdown in your working folder.
 
 ```
