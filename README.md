@@ -30,7 +30,7 @@ If you want to try it yourself, install (fetch) the new template pack. Issue the
 Or as an alternative clone the template pack using `git`. Issue the commands:
 
     $ cd ~/.slideshow/templates
-    $ git clone git://github.com/geraldb/slideshow-deck.js.git
+    $ git clone git://github.com/slideshow-templates/slideshow-deck.js.git
 
 To check if the new template got installed, use the `list` command:
 
@@ -46,7 +46,7 @@ Tip: To get started use the included quick starter sample. Issue the command:
     $ slideshow new -t deck.js
 
 Now you will have a copy of the deck.js Quick Starter sample
-(that is, [`deck.js.text`](https://raw.github.com/slideshow-s9/slideshow-deck.js/master/sample.markdown))
+(that is, [`deck.js.text`](https://raw.github.com/slideshow-templates/slideshow-deck.js/master/sample.md))
 in Markdown in your working folder.
 
 ```
@@ -110,5 +110,5 @@ Open up the generated `deck.js.html` page in your browser. Voila. That's it.
 ## Questions? Comments?
 
 Questions? Comments?
-Send them along to the [Free Web Slide Show Alternatives (S5, S6, S9, Slidy And Friends) Forum/Mailing List](http://groups.google.com/group/webslideshow).
+Send them along to the [wwwmake forum/mailing list](http://groups.google.com/group/wwwmake).
 Thanks!

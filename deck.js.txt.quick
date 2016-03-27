@@ -4,4 +4,4 @@
 # use like
 #  slideshow -q deck.js
 
-deck.js.text  sample.markdown
+deck.js.text  sample.md
