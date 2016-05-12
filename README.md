@@ -1,5 +1,9 @@
 # deck.js - Slide Show (S9) Template Pack
 
+## Live Preview
+
+See [`slides.html`](http://slideshow-templates.github.io/slideshow-deck.js/slides.html).
+
 ## What's Slide Show (S9)?
 
 A Ruby gem that lets you create slide shows and author slides in plain text
@@ -21,10 +25,6 @@ the following headers in `slides.html.erb`:
     author: Your Name Here
     title: Your Slide Show Title Here
  
-## Live Preview
-
-See [`slides.html`](http://slideshow-templates.github.io/slideshow-deck.js/slides.html).
-
 
 ## Try It Yourself - How To Use the deck.js Template Pack
 
