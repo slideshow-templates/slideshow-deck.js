@@ -1,13 +1,12 @@
 ---
 ---
 
-{% if jekyll.version %}
+{% if jekyll %}
   {% assign headers   = site.headers %}
   {% assign slides    = site.slides %}
   {% assign style_css = 'style.css' %}
 {% else %}
   {% capture style_css %}{{ name }}.css{% endcapture %}
-  {% capture more_content_for_js %}{{ content_for :js }}{% endcapture %}
 {% endif %}
 
 
