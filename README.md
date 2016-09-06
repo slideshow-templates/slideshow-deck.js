@@ -51,7 +51,7 @@ Tip: To get started use the included quick starter sample. Issue the command:
     $ slideshow new -t deck.js
 
 Now you will have a copy of the deck.js Quick Starter sample
-(that is, [`deck.js.text`](https://raw.github.com/slideshow-templates/slideshow-deck.js/gh-pages/sample.md))
+(that is, [`deck.js.text`](https://raw.github.com/slideshow-templates/slideshow-deck.js/master/sample.md))
 in Markdown in your working folder.
 
 ```
